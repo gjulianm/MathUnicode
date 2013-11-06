@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE keyboard PUBLIC "" "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
 <!--Created by Ukelele version 2.2.4 on 2013-11-06 at 15:02 (GMT+1)-->
-<!--Last edited by Ukelele version 2.2.4 on 2013-11-06 at 19:56 (GMT+1)-->
+<!--Last edited by Ukelele version 2.2.4 on 2013-11-06 at 23:24 (GMT+1)-->
 <keyboard group="0" id="5601" name="Spanish - ISO - 2" maxout="1">
     <layouts>
         <layout first="0" last="0" modifiers="30" mapSet="138"/>
@@ -186,7 +186,7 @@
             <key code="26" output="/"/>
             <key code="27" output="?"/>
             <key code="28" action="( 1"/>
-            <key code="29" output=""/>
+            <key code="29" output="="/>
             <key code="30" output="*"/>
             <key code="31" action="O"/>
             <key code="32" action="U"/>
@@ -1024,7 +1024,7 @@
             <when state="_" output="⊆"/>
         </action>
         <action id="alt )">
-            <when state="none" next="S="/>
+            <when state="none" output="≠"/>
             <when state="_" output="⊇"/>
         </action>
         <action id="alt *">
@@ -1047,7 +1047,7 @@
             <when state="none" output="…"/>
         </action>
         <action id="alt 0">
-            <when state="none" output="∘"/>
+            <when state="none" next="S="/>
             <when state="fslash" output="∅"/>
         </action>
         <action id="alt 8">
@@ -1082,7 +1082,7 @@
             <when state="|" output="⟧"/>
         </action>
         <action id="alt _">
-            <when state="none" next="_"/>
+            <when state="none" output="≈"/>
             <when state="lt" output="≤"/>
             <when state="|" output="⊥"/>
         </action>
@@ -1121,7 +1121,7 @@
             <when state="none" next="fslash"/>
         </action>
         <action id="alt |">
-            <when state="none" next="|"/>
+            <when state="none" output="|"/>
             <when state="_" output="⟂"/>
             <when state="fslash" output="∤"/>
             <when state="lt" output="◁"/>
@@ -1197,7 +1197,7 @@
         </action>
         <!-- Johnny's clever bugga fix -->
         <action id="÷">
-            <when state="none" next="State 3"/>
+            <when state="none" next="-"/>
         </action>
     </actions>
     <terminators>
@@ -1207,7 +1207,7 @@
         <when state="S=" output="="/>
         <when state="State 1" output="´"/>
         <when state="State 2" output="`"/>
-        <when state="State 3" output="¨"/>
+        <when state="State 3" output="-"/>
         <when state="_" output="_"/>
         <when state="fslash" output="–"/>
         <when state="lt" output="〈"/>
