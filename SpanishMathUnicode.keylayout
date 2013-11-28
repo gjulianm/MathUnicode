@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE keyboard PUBLIC "" "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
 <!--Created by Ukelele version 2.2.4 on 2013-11-06 at 15:02 (GMT+1)-->
-<!--Last edited by Ukelele version 2.2.4 on 2013-11-06 at 23:24 (GMT+1)-->
+<!--Last edited by Ukelele version 2.2.4 on 2013-11-28 at 15:09 (GMT+1)-->
 <keyboard group="0" id="5601" name="Spanish - ISO - 2" maxout="1">
     <layouts>
         <layout first="0" last="0" modifiers="30" mapSet="138"/>
@@ -1058,7 +1058,7 @@
             <when state="fslash" output="∉"/>
         </action>
         <action id="alt =">
-            <when state="none" output="="/>
+            <when state="none" output="○"/>
             <when state="fslash" output="≠"/>
             <when state="lt" next="lt="/>
             <when state="lt=" next="lt=="/>
