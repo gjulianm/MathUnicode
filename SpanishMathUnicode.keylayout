@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE keyboard PUBLIC "" "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
 <!--Created by Ukelele version 2.2.4 on 2013-11-06 at 15:02 (GMT+1)-->
-<!--Last edited by Ukelele version 2.2.8 on 2014-12-04 at 10:53 (GMT+1)-->
+<!--Last edited by Ukelele version 2.2.8 on 2015-02-11 at 10:11 (GMT+1)-->
 <keyboard group="0" id="5601" name="Spanish - ISO - 2" maxout="1">
     <layouts>
         <layout first="0" last="0" modifiers="30" mapSet="138"/>
@@ -55,7 +55,7 @@
             <key code="7" output="x"/>
             <key code="8" output="c"/>
             <key code="9" output="v"/>
-            <key code="10" output="º"/>
+            <key code="10" output="\"/>
             <key code="11" output="b"/>
             <key code="12" output="q"/>
             <key code="13" output="w"/>
@@ -393,7 +393,7 @@
             <key code="8" output="χ"/>
             <key code="9" output="√"/>
             <!-- gap, 10 -->
-            <key code="10" output="\"/>
+            <key code="10" output="º"/>
             <key code="11" output="β"/>
             <key code="12" output="∅"/>
             <key code="13" output="ω"/>
@@ -406,7 +406,7 @@
             <key code="20" output="#"/>
             <key code="21" output="¬"/>
             <key code="22" output="↑"/>
-            <key code="23" output="5"/>
+            <key code="23" output="_"/>
             <key code="24" action="alt ="/>
             <key code="25" output="∞"/>
             <key code="26" output="↓"/>
@@ -513,7 +513,7 @@
             <key code="8" output="ℂ"/>
             <key code="9" output="∇"/>
             <!-- gap, 10 -->
-            <key code="10" output="_"/>
+            <key code="10" output="ᵃ"/>
             <key code="11" output="∵"/>
             <key code="12" output="ℚ"/>
             <key code="13" output="Ω"/>
@@ -526,7 +526,7 @@
             <key code="20" output="³"/>
             <key code="21" output="$"/>
             <key code="22" output="⇑"/>
-            <key code="23" output="%"/>
+            <key code="23" output="∂"/>
             <key code="24" action="alt +"/>
             <key code="25" action="alt ("/>
             <key code="26" output="⇓"/>
