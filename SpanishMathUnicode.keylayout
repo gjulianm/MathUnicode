@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE keyboard PUBLIC "" "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
 <!--Created by Ukelele version 2.2.4 on 2013-11-06 at 15:02 (GMT+1)-->
-<!--Last edited by Ukelele version 2.2.8 on 2015-02-11 at 10:11 (GMT+1)-->
+<!--Last edited by Ukelele version 2.2.8 on 2015-05-07 at 12:37 (GMT+2)-->
 <keyboard group="0" id="5601" name="Spanish - ISO - 2" maxout="1">
     <layouts>
         <layout first="0" last="0" modifiers="30" mapSet="138"/>
@@ -1082,7 +1082,7 @@
             <when state="|" output="⟧"/>
         </action>
         <action id="alt _">
-            <when state="none" output="≈"/>
+            <when state="none" output="∧"/>
             <when state="lt" output="≤"/>
             <when state="|" output="⊥"/>
         </action>
