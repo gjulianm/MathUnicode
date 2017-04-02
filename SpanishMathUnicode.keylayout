@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE keyboard PUBLIC "" "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
 <!--Created by Ukelele version 2.2.4 on 2013-11-06 at 15:02 (GMT+1)-->
-<!--Last edited by Ukelele version 2.2.8 on 2017-04-02 at 20:16 (GMT+2)-->
+<!--Last edited by Ukelele version 2.2.8 on 2015-05-07 at 12:37 (GMT+2)-->
 <keyboard group="0" id="5601" name="Spanish - ISO - 2" maxout="1">
     <layouts>
         <layout first="0" last="0" modifiers="30" mapSet="138"/>
@@ -190,7 +190,7 @@
             <key code="30" output="*"/>
             <key code="31" action="O"/>
             <key code="32" action="U"/>
-            <key code="33" action="^"/>
+            <key code="33" output="^"/>
             <key code="34" action="I"/>
             <key code="35" output="P"/>
             <key code="36" output="&#x000D;"/>
@@ -978,38 +978,30 @@
             <when state="State 1" output="Á"/>
             <when state="State 2" output="À"/>
             <when state="State 3" output="Ä"/>
-            <when state="State Tilde" output="Â"/>
         </action>
         <action id="E">
             <when state="none" output="E"/>
             <when state="State 1" output="É"/>
             <when state="State 2" output="È"/>
             <when state="State 3" output="Ë"/>
-            <when state="State Tilde" output="Ê"/>
         </action>
         <action id="I">
             <when state="none" output="I"/>
             <when state="State 1" output="Í"/>
             <when state="State 2" output="Ì"/>
             <when state="State 3" output="Ï"/>
-            <when state="State Tilde" output="Î"/>
         </action>
         <action id="O">
             <when state="none" output="O"/>
             <when state="State 1" output="Ó"/>
             <when state="State 2" output="Ò"/>
             <when state="State 3" output="Ö"/>
-            <when state="State Tilde" output="Ô"/>
         </action>
         <action id="U">
             <when state="none" output="U"/>
             <when state="State 1" output="Ú"/>
             <when state="State 2" output="Ù"/>
             <when state="State 3" output="Ü"/>
-            <when state="State Tilde" output="Û"/>
-        </action>
-        <action id="^">
-            <when state="none" next="State Tilde"/>
         </action>
         <action id="_">
             <when state="none" output="_"/>
@@ -1026,7 +1018,6 @@
             <when state="State 1" output="á"/>
             <when state="State 2" output="à"/>
             <when state="State 3" output="ä"/>
-            <when state="State Tilde" output="â"/>
         </action>
         <action id="alt (">
             <when state="none" output="⊃"/>
@@ -1170,21 +1161,18 @@
             <when state="State 1" output="é"/>
             <when state="State 2" output="è"/>
             <when state="State 3" output="ë"/>
-            <when state="State Tilde" output="ê"/>
         </action>
         <action id="i">
             <when state="none" output="i"/>
             <when state="State 1" output="í"/>
             <when state="State 2" output="ì"/>
             <when state="State 3" output="ï"/>
-            <when state="State Tilde" output="î"/>
         </action>
         <action id="o">
             <when state="none" output="o"/>
             <when state="State 1" output="ó"/>
             <when state="State 2" output="ò"/>
             <when state="State 3" output="ö"/>
-            <when state="State Tilde" output="ô"/>
         </action>
         <action id="s">
             <when state="none" output="s"/>
@@ -1196,7 +1184,6 @@
             <when state="State 1" output="ú"/>
             <when state="State 2" output="ù"/>
             <when state="State 3" output="ü"/>
-            <when state="State Tilde" output="û"/>
         </action>
         <action id="y">
             <when state="none" output="y"/>
@@ -1221,7 +1208,6 @@
         <when state="State 1" output="´"/>
         <when state="State 2" output="`"/>
         <when state="State 3" output="-"/>
-        <when state="State Tilde" output=""/>
         <when state="_" output="_"/>
         <when state="fslash" output="–"/>
         <when state="lt" output="〈"/>
